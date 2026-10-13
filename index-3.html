@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0f12">
+  <meta name="description" content="هدهد؛ مجله‌ای برای کشف هنر، فرهنگ و خلاقیت؛ از سینما و تئاتر تا نقاشی، مجسمه‌سازی و آموزش هنر.">
+  <title>هدهد | مجله هنر و فرهنگ</title>
+  <style>
+    :root{--bg:#0b0f12;--panel:#11171b;--panel2:#151d21;--text:#f4efe5;--muted:#a7adb0;--gold:#d6ad72;--line:#273137;--max:1180px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.9}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}.wrap{width:min(var(--max),calc(100% - 32px));margin:auto}
+    .topbar{border-bottom:1px solid var(--line);background:#090d10;position:sticky;top:0;z-index:10}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-size:27px;font-weight:800;white-space:nowrap}.bird{color:var(--gold);font-size:30px}.brand small{display:block;color:var(--muted);font-size:10px;font-weight:400;letter-spacing:.5px;line-height:1.5}.links{display:flex;gap:20px;align-items:center;flex-wrap:wrap;font-size:13px;color:#d4d6d4}.links a:hover,.links a:focus{color:var(--gold)}.nav-cta{border:1px solid #6c5638;padding:6px 12px;border-radius:4px;color:var(--gold)}
+    .hero{min-height:420px;display:flex;align-items:center;position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:linear-gradient(90deg,rgba(7,10,12,.18),rgba(7,10,12,.9) 43%,rgba(7,10,12,.45)),url('https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=2000&q=85') center/cover}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--bg),transparent 35%);pointer-events:none}.hero-inner{position:relative;z-index:1;max-width:680px;padding:66px 0 80px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:1px}.hero h1{font-size:clamp(32px,5vw,56px);line-height:1.45;margin:12px 0 16px;max-width:650px}.hero p{color:#e0ded7;max-width:600px;margin:0 0 25px}.btn{display:inline-block;background:var(--gold);color:#16130f;padding:10px 20px;border-radius:4px;font-weight:700;font-size:13px}.btn:hover{filter:brightness(1.08)}.btn-outline{background:transparent;color:var(--text);border:1px solid #596166;margin-right:8px}
+    .section{padding:36px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px}.section-head h2{font-size:22px;margin:0}.section-head p{margin:4px 0 0;color:var(--muted);font-size:13px}.more{color:var(--gold);font-size:12px;white-space:nowrap}.categories{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px}.cat{background:var(--panel);border:1px solid var(--line);border-radius:7px;overflow:hidden;transition:transform .2s,border-color .2s}.cat:hover{transform:translateY(-3px);border-color:#7b6547}.cat img{height:105px;width:100%;object-fit:cover;filter:saturate(.8)}.cat span{display:block;text-align:center;padding:10px 4px;font-size:12px;font-weight:700}
+    .content-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(240px,.82fr);gap:24px}.stories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.story{background:var(--panel);border:1px solid var(--line);border-radius:7px;overflow:hidden}.story img{width:100%;height:190px;object-fit:cover}.story-body{padding:15px}.tag{display:inline-block;color:var(--gold);font-size:11px;margin-bottom:5px}.story h3{font-size:17px;line-height:1.7;margin:0 0 8px}.story p{font-size:12px;color:var(--muted);margin:0}.meta{font-size:11px;color:#838d92;margin-top:12px}.feature{grid-column:span 2;display:grid;grid-template-columns:1fr 1.1fr}.feature img{height:100%;min-height:260px}.feature .story-body{align-self:center;padding:22px}.feature h3{font-size:23px}.sidebar-box{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:18px;margin-bottom:16px}.sidebar-box h3{font-size:16px;margin:0 0 12px}.category-list{list-style:none;margin:0;padding:0}.category-list li{border-bottom:1px solid var(--line);padding:8px 0;font-size:13px;color:#d1d5d5}.category-list li:last-child{border:0}.category-list a:hover{color:var(--gold)}.quote{margin:12px 0 36px;padding:30px;border:1px solid var(--line);border-radius:7px;background:linear-gradient(90deg,rgba(9,13,15,.92),rgba(9,13,15,.4)),url('https://images.unsplash.com/photo-1460661419201-fd4ceccb8a8e?auto=format&fit=crop&w=1600&q=80') center/cover}.quote p{font-size:clamp(18px,2.8vw,27px);max-width:760px;margin:0}.quote small{display:block;color:var(--gold);margin-top:12px}.footer{border-top:1px solid var(--line);padding:25px 0 35px;color:var(--muted);font-size:12px}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}.footer-links{display:flex;gap:16px;flex-wrap:wrap}.footer a:hover{color:var(--gold)}
+    @media(max-width:900px){.links{gap:12px}.categories{grid-template-columns:repeat(4,minmax(0,1fr))}.content-grid{grid-template-columns:1fr}.sidebar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.sidebar-box{margin:0}}
+    @media(max-width:600px){.wrap{width:calc(100% - 24px)}.nav{align-items:flex-start;flex-direction:column;padding:12px 0;gap:10px}.links{width:100%;gap:8px 14px;font-size:12px}.hero{min-height:400px;background-position:center}.hero-inner{padding:48px 0 68px}.hero h1{font-size:34px}.hero p{font-size:13px}.categories{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cat img{height:115px}.stories{grid-template-columns:1fr}.feature{grid-column:auto;display:block}.feature img{height:200px;min-height:0}.feature h3{font-size:20px}.sidebar{grid-template-columns:1fr}.section{padding:26px 0}.section-head h2{font-size:19px}.story img{height:200px}.quote{padding:22px 18px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#home"><span class="bird">۞</span><span>هدهد<small>مجلهٔ هنر و فرهنگ</small></span></a>
+      <nav class="links" aria-label="منوی اصلی">
+        <a href="#home">خانه</a><a href="#articles">مقالات</a><a href="#cinema">سینما</a><a href="#theater">تئاتر</a><a href="#visual-arts">هنرهای تجسمی</a><a href="#learning">آموزش</a><a href="#about">دربارهٔ ما</a>
+        <a class="nav-cta" href="#categories">دسته‌بندی‌ها</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="wrap"><div class="hero-inner">
+        <div class="eyebrow">هنر را جور دیگری ببین</div>
+        <h1>هنر، زبانِ دیگرِ زندگی است</h1>
+        <p>هدهد جایی برای کشف ایده‌ها، شناخت هنرمندان و تجربهٔ جهان هنر است؛ از سینما و تئاتر تا نقاشی، مجسمه‌سازی، ادبیات و آموزش‌های خلاقانه.</p>
+        <a class="btn" href="#articles">مطالب تازه را بخوانید ←</a><a class="btn btn-outline" href="#categories">گشت‌وگذار در هنر</a>
+      </div></div>
+    </section>
+
+    <section class="section" id="categories"><div class="wrap">
+      <div class="section-head"><div><h2>جهان‌های هنری هدهد</h2><p>از تماشا و خواندن تا یادگرفتن و ساختن</p></div></div>
+      <div class="categories">
+        <a class="cat" href="#learning"><img loading="lazy" src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=500&q=80" alt="ابزار نقاشی"><span>آموزش هنر</span></a>
+        <a class="cat" href="#visual-arts"><img loading="lazy" src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=500&q=80" alt="نقاشی رنگارنگ"><span>نقاشی</span></a>
+        <a class="cat" href="#sculpture"><img loading="lazy" src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=500&q=80" alt="اثر هنری"><span>مجسمه‌سازی</span></a>
+        <a class="cat" href="#theater"><img loading="lazy" src="https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=500&q=80" alt="صحنه تئاتر"><span>تئاتر و بازیگری</span></a>
+        <a class="cat" href="#cinema"><img loading="lazy" src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=500&q=80" alt="سینما"><span>سینما و سریال</span></a>
+        <a class="cat" href="#literature"><img loading="lazy" src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=500&q=80" alt="کتاب‌ها"><span>ادبیات</span></a>
+        <a class="cat" href="#music"><img loading="lazy" src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=500&q=80" alt="موسیقی"><span>موسیقی</span></a>
+      </div>
+    </div></section>
+
+    <section class="section" id="articles"><div class="wrap">
+      <div class="section-head"><div><h2>خواندنی‌های هدهد</h2><p>چند یادداشت آغازین برای آشنایی با جهان هنر؛ می‌توانی این متن‌ها را به‌مرور گسترش بدهی.</p></div><a class="more" href="#learning">رفتن به آموزش‌ها ←</a></div>
+      <div class="content-grid">
+        <div class="stories">
+          <article class="story feature" id="cinema"><img loading="lazy" src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1000&q=85" alt="دوربین در سالن سینما"><div class="story-body"><span class="tag">سینما و سریال</span><h3>چطور یک فیلم، جهان خودش را می‌سازد؟</h3><p>از نور و قاب‌بندی تا بازی بازیگر و ریتم تدوین؛ نگاهی به ابزارهایی که تجربهٔ تماشای فیلم را شکل می‌دهند.</p><div class="meta">یادداشت تحلیلی · ۶ دقیقه مطالعه</div></div></article>
+          <article class="story" id="painting"><img loading="lazy" src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80" alt="بوم و قلم‌مو"><div class="story-body"><span class="tag">نقاشی</span><h3>از کجا تماشای یک نقاشی را شروع کنیم؟</h3><p>اول مسیر نگاهت را دنبال کن: کدام بخش زودتر توجهت را می‌گیرد؟ بعد به ترکیب‌بندی، تضاد رنگ‌های گرم و سرد و جهت نور نگاه کن. در پایان از خودت بپرس این انتخاب‌ها چه حسی می‌سازند؛ بدون عجله برای یافتن یک پاسخ قطعی.</p><div class="meta">راهنمای هنر · ۴ دقیقه مطالعه</div></div></article>
+          <article class="story" id="sculpture"><img loading="lazy" src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=800&q=80" alt="اثر هنری و مجسمه"><div class="story-body"><span class="tag">مجسمه‌سازی</span><h3>مجسمه‌سازی از کجا شروع می‌شود؟</h3><p>فرم، حجم و فضا سه مفهوم پایه‌اند. برای تمرین نخست، یک شیء ساده را از چند زاویه ببین و شکل کلی آن را با خطوط ساده ثبت کن؛ بعد به نسبت‌ها و سایه‌ها توجه کن.</p><div class="meta">آشنایی با هنرهای تجسمی · ۵ دقیقه مطالعه</div></div></article>
+          <article class="story" id="theater"><img loading="lazy" src="https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=800&q=80" alt="صحنه نمایش"><div class="story-body"><span class="tag">تئاتر و بازیگری</span><h3>بازیگر چگونه به شخصیت نزدیک می‌شود؟</h3><p>از خودت بپرس شخصیت چه می‌خواهد، چه مانعی روبه‌رویش است و برای رسیدن به خواسته‌اش چه کنشی انجام می‌دهد. این سه پرسش، تحلیل نقش را از تقلید ظاهری فراتر می‌برد.</p><div class="meta">تمرین بازیگری · ۵ دقیقه مطالعه</div></div></article>
+          <article class="story" id="learning"><img loading="lazy" src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80" alt="وسایل طراحی"><div class="story-body"><span class="tag">آموزش هنر</span><h3>تمرین سادهٔ طراحی برای شروع</h3><p>یک فنجان یا میوه را مقابل خود بگذار. ابتدا فقط شکل کلی را با خطوط کم‌رنگ بکش، سپس نسبت ارتفاع به عرض را بررسی کن و در پایان یک سایهٔ اصلی اضافه کن. هدف، کامل‌بودن نیست؛ دقیق دیدن است.</p><div class="meta">آموزش گام‌به‌گام · ۳ دقیقه مطالعه</div></div></article>
+          <article class="story" id="literature"><img loading="lazy" src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=800&q=80" alt="کتاب و مطالعه"><div class="story-body"><span class="tag">ادبیات</span><h3>چگونه کتابی برای خواندن انتخاب کنیم؟</h3><p>از حال‌وهوای مورد علاقه تا تجربه‌های تازه؛ راهی برای ساختن مسیر مطالعهٔ شخصی.</p><div class="meta">کتاب و خواندن · ۴ دقیقه مطالعه</div></div></article>
+          <article class="story" id="music"><img loading="lazy" src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=800&q=80" alt="اجرای موسیقی"><div class="story-body"><span class="tag">موسیقی</span><h3>شنیدن فعال؛ راهی تازه برای کشف موسیقی</h3><p>به سازها، لایه‌های صدا و سکوت‌هایی گوش بده که بخشی از روایت‌اند.</p><div class="meta">شنیدن و تحلیل · ۴ دقیقه مطالعه</div></div></article>
+        </div>
+        <aside class="sidebar">
+          <div class="sidebar-box"><h3>دسته‌بندی مطالب</h3><ul class="category-list"><li><a href="#cinema">سینما و سریال</a></li><li><a href="#theater">تئاتر و بازیگری</a></li><li><a href="#visual-arts">نقاشی و هنرهای تجسمی</a></li><li><a href="#sculpture">مجسمه‌سازی</a></li><li><a href="#music">موسیقی</a></li><li><a href="#literature">ادبیات و کتاب</a></li><li><a href="#learning">آموزش‌های هنری</a></li><li><a href="#events">اخبار و رویدادها</a></li></ul></div>
+          <div class="sidebar-box" id="about"><h3>دربارهٔ هدهد</h3><p style="font-size:13px;color:var(--muted);margin:0">هدهد، مجله‌ای مستقل برای گفت‌وگو دربارهٔ هنر، تجربهٔ خلاقیت و یادگیری در کنار هم است.</p></div>
+          <div class="sidebar-box" id="events"><h3>اخبار و رویدادها</h3><p style="font-size:13px;color:var(--muted);margin:0">در این بخش می‌توانی خبر نمایشگاه‌ها، اجراها، جشنواره‌ها و اتفاق‌های مهم هنری را منتشر کنی.</p></div>
+        </aside>
+      </div>
+    </div></section>
+
+    <section class="wrap quote"><p>«هنر فقط چیزی نیست که می‌بینیم؛ راهی است برای دیدن چیزهایی که پیش‌تر از کنارشان می‌گذشتیم.»</p><small>هدهد · یادداشتی دربارهٔ نگاه هنری</small></section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-row"><a class="brand" href="#home"><span class="bird">۞</span><span>هدهد<small>مجلهٔ هنر و فرهنگ</small></span></a><div class="footer-links"><a href="#about">دربارهٔ ما</a><a href="#articles">مقالات</a><a href="#categories">دسته‌بندی‌ها</a><a href="#home">بازگشت به بالا ↑</a></div><div>© هدهد · برای دیدن و آموختن هنر</div></div></footer>
+</body>
+</html>
