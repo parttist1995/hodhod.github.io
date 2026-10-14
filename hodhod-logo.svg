@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 470" role="img" aria-labelledby="title desc">
+<title id="title">لوگوی هدهد</title><desc id="desc">پرنده هدهد کرم‌رنگ روی دایره قرمز، همراه با نام هدهد</desc>
+<rect width="520" height="470" rx="18" fill="#101112"/>
+<circle cx="260" cy="150" r="100" fill="#c82127"/>
+<g fill="#f1e5ce" stroke="#101112" stroke-width="3" stroke-linejoin="round">
+<path d="M252 105 Q220 75 198 37 Q231 47 252 81 Q246 47 252 21 Q276 52 275 83 Q291 54 306 42 Q307 77 284 104 L279 125 Z"/>
+<path d="M263 93 Q291 78 311 91 Q329 100 335 119 L394 137 L337 130 Q326 151 304 155 Q293 184 276 211 L237 278 L256 215 Q231 193 229 166 Q205 144 220 116 Q235 94 263 93Z"/>
+<path d="M267 143 Q290 132 306 147 Q312 164 298 184 Q277 214 254 237 L217 280 L233 230 Q240 197 249 179 Q257 162 267 143Z"/>
+<path d="M249 181 Q216 191 198 221 L172 271 L210 244 L198 286 L231 248 L238 219Z"/>
+<path d="M250 193 L273 207 L258 224 L239 214Z M240 216 L259 227 L246 240 L229 231Z" fill="#101112" stroke="none"/>
+<path d="M259 193 L279 204 L267 217 L248 207Z M223 239 L241 248 L229 262 L211 253Z" fill="#f1e5ce" stroke="none"/>
+</g>
+<circle cx="300" cy="116" r="6" fill="#101112"/><circle cx="302" cy="114" r="2" fill="#fff5df"/>
+<text x="260" y="344" fill="#f4ead7" font-family="Tahoma,Arial,sans-serif" font-size="66" font-weight="700" text-anchor="middle">هدهد</text>
+<text x="260" y="389" fill="#f4ead7" font-family="Georgia,serif" font-size="28" letter-spacing="10" text-anchor="middle">HODHOD</text>
+<path d="M92 423 H160 M360 423 H428" stroke="#d5a55c" stroke-width="2"/>
+<text x="260" y="431" fill="#d5c8b4" font-family="Tahoma,Arial,sans-serif" font-size="18" text-anchor="middle">مجله هنری و فرهنگی</text>
+</svg>
